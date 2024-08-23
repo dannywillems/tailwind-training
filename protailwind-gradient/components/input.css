@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .belgium-flag {
+        background-image: linear-gradient(90deg, black 0% 33%, yellow 33% 66%, red 66% 100%);
+    }
+    .france-flag {
+        background-image: linear-gradient(90deg, blue 0% 33%, white 33% 66%, red 66% 100%);
+    }
+
+}
